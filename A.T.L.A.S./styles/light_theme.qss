@@ -1,0 +1,21 @@
+QWidget { background-color: #f0f2f5; color: #1c1e21; font-family: Arial; }
+QMainWindow, QDialog { background-color: #f0f2f5; }
+QLabel { font-size: 14px; }
+QLineEdit, QTextEdit, QComboBox { background-color: #ffffff; border: 1px solid #ccd0d5; border-radius: 8px; padding: 8px; font-size: 14px; }
+QLineEdit:focus, QTextEdit:focus, QComboBox:focus { border: 1px solid #1877f2; }
+QPushButton, QToolButton { background-color: #1877f2; color: white; font-weight: bold; border: none; border-radius: 8px; padding: 10px; }
+QPushButton:hover, QToolButton:hover { background-color: #166fe5; }
+QPushButton:disabled, QToolButton:disabled { background-color: #bdc3c7; }
+QProgressBar { border: 1px solid #ccd0d5; background-color: #e9ebee; border-radius: 5px; text-align: center; color: #1c1e21; }
+QProgressBar::chunk { background-color: #1877f2; border-radius: 5px; }
+QTreeWidget { background-color: #ffffff; border-radius: 8px; border: 1px solid #ccd0d5; }
+QCalendarWidget QTableView { background-color: #ffffff; }
+QCalendarWidget QTableView::item:selected { background-color: #1877f2; color: #ffffff; }
+QCheckBox { font-size: 16px; padding: 3px; }
+QScrollBar:vertical { border: none; background: #f0f2f5; width: 8px; margin: 0; }
+QScrollBar::handle:vertical { background: #ccc; min-height: 20px; border-radius: 4px; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0px; }
+QWidget#factCard {
+    background: transparent;
+    border: none;
+}

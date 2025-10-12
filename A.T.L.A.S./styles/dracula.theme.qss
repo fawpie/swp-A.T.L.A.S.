@@ -1,0 +1,13 @@
+QWidget { background-color: #282a36; color: #f8f8f2; font-family: Arial; }
+QMainWindow, QDialog { background-color: #282a36; }
+QLabel { font-size: 14px; }
+QLineEdit, QTextEdit, QComboBox, QTreeWidget { background-color: #44475a; border: 1px solid #6272a4; border-radius: 5px; padding: 8px; }
+QPushButton, QToolButton { background-color: #bd93f9; color: #f8f8f2; font-weight: bold; border: none; border-radius: 5px; padding: 10px; }
+QPushButton:hover, QToolButton:hover { background-color: #ff79c6; }
+QProgressBar::chunk { background-color: #50fa7b; border-radius: 5px; }
+QCalendarWidget QTableView { background-color: #44475a; }
+QCalendarWidget QTableView::item:selected { background-color: #bd93f9; color: #282a36; }
+QCheckBox { font-size: 16px; padding: 3px; }
+QScrollBar:vertical { border: none; background: #282a36; width: 8px; margin: 0; }
+QScrollBar::handle:vertical { background: #6272a4; min-height: 20px; border-radius: 4px; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0px; }
